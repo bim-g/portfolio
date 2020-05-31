@@ -1,0 +1,30 @@
+{
+    "experiance":[
+        {
+            "company":"doctawetu",
+            "responsability":"software develloper",
+            "job description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur ipsum ea incidunt reiciendis cupiditate placeat quidem ipsam fugiat error tempore corporis obcaecati ad at cum doloribus dolorem, expedita quo.",
+            "annee":"2020"
+        },
+        {
+            "company":"mago cisty",
+            "responsability":"web develloper",
+            "job description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur ipsum ea incidunt reiciendis cupiditate placeat quidem ipsam fugiat error tempore corporis obcaecati ad at cum doloribus dolorem, expedita quo.",
+            "annee":"2019"
+        }
+    ],
+    "education":[
+        {
+            "ecole": "ulk",
+            "faculty": "computer science",
+            "departement": "Lorem ipsum dolor",
+            "annee": "2019"
+        },
+        {
+            "ecole": "institut de goma",
+            "faculty": "scientiphique",
+            "departement": "math phisique",
+            "annee": "2011"
+        }
+    ]
+}
