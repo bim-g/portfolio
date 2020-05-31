@@ -6,10 +6,7 @@
     <link rel="stylesheet" href="style/w3.css">
     <title>Ibrahim</title>
 </head>
-<style>
-    .apropos{
-        height: 100%;
-    }
+<style>    
     .img{
         width: 150px;
         height:150px;
@@ -21,10 +18,10 @@
     }
 </style>
 <body>
-    <div class="w3-row ">
-        <div class="w3-col l3 m5 s12 w3-dark-gray w3-padding-large w3-text-light-gray" >
+    <div class="w3-row w3-dark-gray">
+        <div class="w3-col l3 m5 s12  w3-padding-large w3-text-light-gray" >
             <div class="apropos">
-                <div class="w3-blue w3-circle img" >
+                <div class="w3-circle img w3-border w3-border-blue " >
                     <img src="./image/profil.JPG" alt="" srcset="" >                    
                 </div>
                 <h4>APROPOS</h4>
@@ -51,44 +48,32 @@
                     <p>E-mail:ibmussafb@gmail.com</p>
                 </div>
             </div>
-            <div class=" w3-text-gray">
+            <div class=" w3-text-gray" id="curriculum">
                 <div class="w3-border-bottom">
                     <h4 class="w3-text-gray"> <b>EXPERIENCE</b></h4>
-                    <div class="w3-row ">
-                        <div class="w3-col l4 m4 s6"><b>Doctawetu</b> <br> <span class="w3-small">2020</span></div>
-                        <div class="w3-col l8 m8 s6 w3-margin-bottom">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Officiis eius aut necessitatibus excepturi, optio earum quae cum accusamus sed id
-                            voluptas culpa eligendi odio recusandae, ipsum labore. Et, necessitatibus accusamus.
+                    <div class="w3-row " w3-repeat="experience">
+                        <div class="w3-col l3 m4 s6"><b>{{company}}</b> <br> <span class="w3-small">{{annee}}</span></div>
+                        <div class="w3-col l9 m8 s6 w3-margin-bottom">
+                            <div class="w3-text-gray"><b>{{responsability}}</b></div>
+                            <div>{{job_description}}</div>
                         </div>
                     </div>
-                    <div class="w3-row ">
-                        <div class="w3-col l4 m4 s6"><b>Mukutano</b><br><span class="w3-small">2019</span></div>
-                        <div class="w3-col l8 m8 s6 w3-margin-bottom">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Officiis eius aut necessitatibus excepturi, optio earum quae cum accusamus sed id
-                            voluptas culpa eligendi odio recusandae, ipsum labore. Et, necessitatibus accusamus.
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="w3-sherif">
                     <h4 class="w3-text-gray "> <b>EDUCATION</b></h4>
-                    <div class="w3-row ">
-                        <div class="w3-col l4 m4 s6"><b>Unniversite</b> <br> <span class="w3-small">2018</span></div>
-                        <div class="w3-col l8 m8 s6 w3-margin-bottom">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Officiis eius aut necessitatibus excepturi, optio earum quae cum accusamus sed id
-                            voluptas culpa eligendi odio recusandae, ipsum labore. Et, necessitatibus accusamus.
+                    <div class="w3-row " w3-repeat="education">
+                        <div class="w3-col l3 m4 s6"><b>{{ecole}}</b> <br> <span class="w3-small">{{annee}}</span></div>
+                        <div class="w3-col l9 m8 s6 w3-margin-bottom">
+                            <div class="w3-text-gray"><b>{{departement}}</b></div>
+                            <div>{{description}}</div>
                         </div>
-                    </div>
-                    <div class="w3-row">
-                        <div class="w3-col l4 m4 s6"><b>Humanite</b><br><span class="w3-small">2015</span></div>
-                        <div class="w3-col l8 m8 s6 w3-margin-bottom">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Officiis eius aut necessitatibus excepturi, optio earum quae cum accusamus sed id
-                            voluptas culpa eligendi odio recusandae, ipsum labore. Et, necessitatibus accusamus.
-                        </div>
-                    </div>
+                    </div>                    
                 </div>                
             </div>
         </div>
     </div>
     <script src="js/w3.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
