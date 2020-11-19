@@ -7,7 +7,7 @@
             "annee":"2020"
         },
         {
-            "company":"mago cisty",
+            "company":"mago city",
             "responsability":"web develloper",
             "job_description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur ipsum ea incidunt reiciendis cupiditate placeat quidem ipsam fugiat error tempore corporis obcaecati ad at cum doloribus dolorem, expedita quo.",
             "annee":"2019"
@@ -23,10 +23,28 @@
         },
         {
             "ecole": "institut de goma",
-            "faculty": "scientiphique",
+            "faculty": "scientiphyque",
             "departement": "math phisique",
             "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur ipsum ea incidunt reiciendis cupiditate placeat quidem ipsam fugiat error tempore corporis obcaecati ad at cum doloribus dolorem, expedita quo.",
             "annee": "2011"
         }
-    ]
+    ],
+    "contanct":{
+        "adress": "Goma,Republique Democratique du Congo",
+        "contact": ["+243991228233","+243853968558"],
+        "email": ["ibmussafb@gmail.com", "ibmussa@outlook.fr"]
+    },
+    "social": {
+        "facebook":"https://facebook.com/ibmussafb",
+        "twitter":"https://twitter.com/ibmussa",
+        "instagram":"https://instagram.com/ibmussafb",
+        "linkdin":"https://linkdin.com/ibmussa"
+    },
+    "identity": {
+        "fname":"Ibrahim",
+        "lname":"Mussa",
+        "other":"Boss",
+        "title":"SoftWare Develloper",
+        "about": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur ipsum ea incidunt reiciendis cupiditate placeat quidem ipsam fugiat error tempore corporis obcaecati ad at cum doloribus dolorem, expedita quo."
+    }
 }

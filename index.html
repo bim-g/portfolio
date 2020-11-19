@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="w3-row w3-dark-gray">
-        <div class="w3-col l3 m5 s12  w3-padding-large w3-text-light-gray" >
+        <div class="w3-col l3 m5 s12  w3-padding-large w3-text-light-gray" id="apropos">
             <div class="apropos">
                 <div class="w3-circle img w3-border w3-border-blue " >
                     <img src="./image/profil.JPG" alt="" srcset="" >                    
@@ -19,19 +19,19 @@
             </div>
             <hr>
             <h4>SUIVEZ-MOI</h4>
-            <div class="">
+            <div class="" id="social">
                 <p><a href="#">Facebook</a></p>
                 <p><a href="#">Instagram</a></p>
                 <p><a href="#">Twitter</a></p>
                 <p><a href="#">Whatsapp</a></p>
             </div>
         </div>
-        <div class="w3-col l9 m7 s12 w3-padding-large w3-light-gray">
-            <div class="w3-bar w3-border-bottom" >
+        <div class="w3-col l9 m7 s12 w3-padding-large w3-light-gray" id="">
+            <div class="w3-bar w3-border-bottom" id="identite">
                 <div class="w3-text-gray w3-left">
                     <h4><b>IBRAHIM <br>MUSSA BOSS <br>Software Develloper</b></h4>
                 </div>
-                <div class="w3-right w3-text-gray">
+                <div class="w3-right w3-text-gray" id="contact">
                     <p><b>CONTACT</b></p>
                     <p>Adress:Goma,Republique Democratique du Congo</p>
                     <p>contact:+243991228233</p>
@@ -41,20 +41,20 @@
             <div class=" w3-text-gray" id="curriculum">
                 <div class="w3-border-bottom">
                     <h4 class="w3-text-gray"> <b>EXPERIENCE</b></h4>
-                    <div class="w3-row " w3-repeat="experience">
-                        <div class="w3-col l3 m4 s6"><b>{{company}}</b> <br> <span class="w3-small">{{annee}}</span></div>
-                        <div class="w3-col l9 m8 s6 w3-margin-bottom">
+                    <div class="w3-row-padding " w3-repeat="experience">
+                        <div class="w3-col l3 m4 s4"><b>{{company}}</b> <br> <span class="w3-small">{{annee}}</span></div>
+                        <div class="w3-col l9 m8 s8 w3-margin-bottom">
                             <div class="w3-text-gray"><b>{{responsability}}</b></div>
                             <div>{{job_description}}</div>
                         </div>
-                    </div>
-                    
+                    </div>                    
                 </div>
+                
                 <div class="w3-sherif">
                     <h4 class="w3-text-gray "> <b>EDUCATION</b></h4>
-                    <div class="w3-row " w3-repeat="education">
-                        <div class="w3-col l3 m4 s6"><b>{{ecole}}</b> <br> <span class="w3-small">{{annee}}</span></div>
-                        <div class="w3-col l9 m8 s6 w3-margin-bottom">
+                    <div class="w3-row-padding " w3-repeat="education">
+                        <div class="w3-col l3 m4 s4"><b>{{ecole}}</b> <br> <span class="w3-small">{{annee}}</span></div>
+                        <div class="w3-col l9 m8 s8 w3-margin-bottom">
                             <div class="w3-text-gray"><b>{{departement}}</b></div>
                             <div>{{description}}</div>
                         </div>
