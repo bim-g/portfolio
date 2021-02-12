@@ -1,3 +1,4 @@
+let social=[];
 (function(){
     w3.getHttpObject("./js/data.json",(res)=>{ 
         let contact=res.contact;       
