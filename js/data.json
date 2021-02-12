@@ -7,7 +7,7 @@
             "annee":"2020"
         },
         {
-            "company":"mago cisty",
+            "company":"mago city",
             "responsability":"web develloper",
             "job_description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur ipsum ea incidunt reiciendis cupiditate placeat quidem ipsam fugiat error tempore corporis obcaecati ad at cum doloribus dolorem, expedita quo.",
             "annee":"2019"
@@ -23,10 +23,54 @@
         },
         {
             "ecole": "institut de goma",
-            "faculty": "scientiphique",
+            "faculty": "scientiphyque",
             "departement": "math phisique",
             "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur ipsum ea incidunt reiciendis cupiditate placeat quidem ipsam fugiat error tempore corporis obcaecati ad at cum doloribus dolorem, expedita quo.",
             "annee": "2011"
         }
-    ]
+    ],
+    "contanct":{
+        "adress": "Goma,Republique Democratique du Congo",
+        "contact": ["+243991228233","+243853968558"],
+        "email": ["ibmussafb@gmail.com", "ibmussa@outlook.fr"]
+    },
+    "social": [
+        {
+            "name":"facebook",
+            "url":"https://facebook.com/ibmussafb",
+            "icon":"fa fa-facebook",
+            "style":"w3-blue"
+        },
+        {
+            "name":"twitter",
+            "url":"https://twitter.com/ibmussa",
+            "icon":"fa fa-twitter",
+            "style":"w3-aqua"
+        },
+        {
+            "name":"instagram",
+            "url":"https://instagram.com/ibmussafb",
+            "icon":"fa fa-instagram",
+            "style":"w3-purple"
+        },
+        {
+            "name":"linkdin",
+            "url":"https://linkdin.com/ibmussa",
+            "icon":"fa fa-linkedin-square",
+            "style":"w3-blue"
+        },
+        {
+            "name":"github",
+            "url":"https://github.com/bim-g",
+            "icon":"fa fa-github",
+            "style":"w3-black"
+        }
+    ],
+    "identity": {
+        "fname":"Ibrahim",
+        "lname":"Mussa",
+        "other":"Boss",
+        "title":"SoftWare Develloper",
+        "about": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia consectetur ipsum ea incidunt reiciendis cupiditate placeat quidem ipsam fugiat error tempore corporis obcaecati ad at cum doloribus dolorem, expedita quo."
+    }
 }
